@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Burgonya</title>
+</head>
+<body>
+    <div>
+        <div id="baldiv">
+            <h1>Burgonya Térkép</h1>
+            <table class="gametable" id="game">
+                <tr id="gametr1">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr2">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr3">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr4">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr5">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr6">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr7">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr8">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr9">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr10">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="gametr11">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="jobbdiv">
+            <div id="scorediv">
+                <div id="scoredivtop">
+                    <table id="score">
+                    <tr id="scoretr">
+                        <td class="springclass" id="spring">Tavasz:</td>
+                        <td class="summerclass" id="summer">Nyár:</td>
+                        <td class="autumnclass" id="autumn">Ősz:</td>
+                        <td class="winterclass" id="winter">Tél:</td>
+                    </tr>
+                </table>
+                </div>
+                <div id="scoredivbottom">
+                    <p id="scoreCounter">Összesen: </p>
+                </div>
+            </div>
+            <p id="currentSeason">Jelenlegi évszak: </p>
+            <hr>
+            <table id="missionTable">
+                <tr id="missiontr1">
+                    <td id="missionA"><p id="scoreLabel">(0 pont)</p></td>
+                    <td id="missionB"><p id="scoreLabel">(0 pont)</p></td>
+                </tr>
+                <tr id="missiontr2">
+                    <td id="missionC"><p id="scoreLabel">(0 pont)</p></td>
+                    <td id="missionD"><p id="scoreLabel">(0 pont)</p></td>
+                </tr>
+            </table>
+            <p id="leftOfSeason">Évszakból hátralévő idő: </p>
+            <hr>
+            <p id="nextItem">Lehelyezendő elem: </p>
+            <div id="shapediv">
+                <div id="shapedivbal">
+                    <button id="rotateButton">Forgatás</button>
+                    <button id="mirrorButton">Tükrözés</button>
+                </div>
+                <div id="shapedivjobb">
+                    <table id="shapeTable">
+                        <tr id="shapetr">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr id="shapetr">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr id="shapetr">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

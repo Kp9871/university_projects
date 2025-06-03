@@ -1,0 +1,20 @@
+{
+    "admin": {
+        "username": "admin",
+        "email": "admin@gmail.com",
+        "password": "admin",
+        "cards": 10,
+        "money": 10329,
+        "inventory": "card1 card2 card4 card5 card6 card7 card8 card9 65a14b2c0d162card0 card0 ",
+        "id": "admin"
+    },
+    "659fc89080739": {
+        "username": "pokemon_lover",
+        "email": "1l0v3p0k3m0n5@gmail.com",
+        "password": "Pikaaa",
+        "cards": 1,
+        "money": 170,
+        "inventory": "card3 ",
+        "id": "659fc89080739"
+    }
+}

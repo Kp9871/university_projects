@@ -1,0 +1,203 @@
+body
+{
+    background-image: url("src/theme_opacity.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Arial';
+    font-size: 24px;
+}
+
+hr
+{
+    width: 90%;
+}
+
+#baldiv
+{
+    display: inline-block;
+}
+
+#jobbdiv
+{
+    display: inline-block;
+}
+
+#scoredivtop
+{
+    width: 458px;
+    height: 50%;
+    display: flex;
+    margin-left: 5%;
+}
+
+#scoredivbottom
+{
+    width: 458px;
+    height: 50%;
+    display: flex;
+    margin-left: 5%;
+}
+
+#shapedivjobb, #shapedivbal
+{
+    display: inline-grid;
+}
+
+#game
+{
+    position: relative;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 0.5rem;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+#game td
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 0.33rem;
+    background-size: cover;
+    background-image: url("src/tiles/base_tile.png");
+}
+
+#score
+{
+    position: relative;
+}
+
+#spring, #summer, #autumn, #winter
+{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 0.33rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.springclass
+{
+    background-color: #69be6c;
+    border-color: #3b8e3e;
+}
+
+.summerclass
+{
+    background-color: #fee874;
+    border-color: #ddbb08;
+}
+
+.autumnclass
+{
+    background-color: #eabd94;
+    border-color: #6c3f14;
+}
+
+.winterclass
+{
+    background-color: #59d2ec;
+    border-color: #3190a5;
+}
+
+#scoretr2
+{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+#missionTable
+{
+    margin-left: 40px;
+}
+
+#missionTable td
+{
+    width: 304px;
+    height: 100px;
+    background-size: cover;
+}
+
+#missiontr1, #missiontr2
+{
+    text-align: right;
+    vertical-align: bottom;
+    color: #ffffff;
+}
+
+#shapeTable
+{
+    /*width: 200px;
+    height: 200px;*/
+    border-radius: 0.5rem;
+    border-width: 0.5rem;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+#shapetr td
+{
+    width: 50px;
+    height: 50px;
+    background-size: cover
+}
+
+#scoreCounter
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scoreLabel
+{
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline;
+    float: left;
+    margin-left: 130px;
+}
+
+#labelA, #labelB, #labelC, #labelD
+{
+    text-align: center;
+    vertical-align: bottom;
+    display: inline;
+}
+
+#currentSeason, #leftOfSeason, #nextItem
+{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#rotateButton, #mirrorButton
+{
+    background-color: #ffffff;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 130px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+img
+{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
